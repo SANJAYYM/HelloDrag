@@ -47,12 +47,12 @@ The DragEvent represents an event that is sent out by the system at various time
 This class provides few Constants and important methods which we use during Drag/Drop process.
 
 **CONSTANTS**  
-1 ACTION_DRAG_STARTED : Signals the start of a drag and drop operation.
-2 ACTION_DRAG_ENTERED : Signals to a View that the drag point has entered the bounding box of the View.
-3 ACTION_DRAG_LOCATION : Sent to a View after ACTION_DRAG_ENTERED if the drag shadow is still within the View object's bounding box.
-4 ACTION_DRAG_EXITED   :  Signals that the user has moved the drag shadow outside the bounding box of the View. 5
-5 ACTION_DROP :  Signals to a View that the user has released the drag shadow, and the drag point is within the bounding box of the View.
-6 ACTION_DRAG_ENDED :  Signals to a View that the drag and drop operation has concluded.
+1 ACTION_DRAG_STARTED : Signals the start of a drag and drop operation.  
+2 ACTION_DRAG_ENTERED : Signals to a View that the drag point has entered the bounding box of the View.  
+3 ACTION_DRAG_LOCATION : Sent to a View after ACTION_DRAG_ENTERED if the drag shadow is still within the View object's bounding box.  
+4 ACTION_DRAG_EXITED   :  Signals that the user has moved the drag shadow outside the bounding box of the View.   
+5 ACTION_DROP :  Signals to a View that the user has released the drag shadow, and the drag point is within the bounding box of the View.  
+6 ACTION_DRAG_ENDED :  Signals to a View that the drag and drop operation has concluded.  
 
 **METHODS**   
 Following are few important and most frequently used methods available as a part of DragEvent class.  
